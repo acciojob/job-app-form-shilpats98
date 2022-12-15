@@ -4,10 +4,42 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<style>
+        body{
+            margin-left: 100px;
+            margin-top: 30px;
+        }
+    </style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<h1>Job App Form</h1>
+    <form>
+        <label for="fname">Name</label>
+        <input type="text"  name="fname"id="name" required > <br> <br>
+        <label for="email">Email</label>
+        <input type="email"  name="email"id="email" required ><br><br>
+        <label for="gender" required>Gender</label>
+        <input type="radio" name="gender" id="gender" value="M">Male
+        <input type="radio" name="gender" id="gender" value="F">Female<br><br>
+        <label for="laptop" >Laptop</label>
+        <select name="laptops" id="laptop" required >
+            <option value="apple">Apple</option>
+            <option value="asus">Asus</option>
+            <option value="hp">HP</option>
+        </select><br><br>
+        <label for="age" required>Age</label>
+        <input type="number" name="age" id="age" ><br><br>
+        <label for="dob" required>DOB</label>
+        <input type="date" name="dob" id="dob" ><br><br>
+        <label for="password" required>Password</label>
+        <input type="password" name="password" id="password"><br><br>
+        <label for="portfolio">Portfolio</label>
+        <input type="url" name="" id="portfolio"><br><br>
+        <button type="submit">Submit</button>
+        
+    </form>
     <script type="text/javascript" src="./script.js">
 </script>
 
