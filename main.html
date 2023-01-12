@@ -4,40 +4,38 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
-	<style>
-        body{
-            margin-left: 100px;
-            margin-top: 30px;
-        }
-    </style>
+	
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
 	<h1>Job App Form</h1>
-    <form>
-        <label for="fname">Name</label>
-        <input type="text"  name="fname"id="name" required > <br> <br>
-        <label for="email">Email</label>
-        <input type="email"  name="email"id="email" required ><br><br>
-        <label for="gender" required>Gender</label>
-        <input type="radio" name="gender" id="gender" value="M">Male
-        <input type="radio" name="gender" id="gender" value="F">Female<br><br>
-        <label for="laptop" >Laptop</label>
-        <select name="laptops" id="laptop" required >
+    <form action="abc@gmail.com" method="post">
+        <label class="title" for="name">Name</label> <br>
+        <input class="text" type="text" id="name" required > <br>
+        <label class="title" for="email">Email</label> <br>
+        <input  class="text"type="email" id="email" required ><br>
+        <label class="title" for="gender" required>Gender</label> <br>
+        <input class="text" type="radio" name="gender" id="male">
+        <label class="title" for="male">Male</label>
+        <input  class="text"type="radio" name="gender" id="female">
+        <label class="title" for="female">Female</label><br>
+       <label for="laptop" >Laptop Brands</label> 
+        <select  id="laptop" required  class="title">
+            <option value="choose">choose</option>
             <option value="apple">Apple</option>
             <option value="asus">Asus</option>
             <option value="hp">HP</option>
         </select><br><br>
-        <label for="age" required>Age</label>
-        <input type="number" name="age" id="age" ><br><br>
-        <label for="dob" required>DOB</label>
-        <input type="date" name="dob" id="dob" ><br><br>
-        <label for="password" required>Password</label>
-        <input type="password" name="password" id="password"><br><br>
-        <label for="portfolio">Portfolio</label>
-        <input type="url" name="" id="portfolio"><br><br>
-        <button type="submit">Submit</button>
+        <label class="title" for="age" required>Age</label> <br>
+        <input class="text" type="text" id="age" ><br>
+        <label class="title" for="dob" required>DOB</label> <br>
+        <input  class="text"type="date"  id="dob" ><br>
+        <label class="title"for="password" required>Password</label> <br>
+        <input class="text" type="password"  id="password"><br>
+        <label class="title" for="portfolio">Portfolio</label> <br>
+        <input class="text"type="url"  id="portfolio"><br>
+        <button type="submit" class="text">Submit</button>
         
     </form>
     <script type="text/javascript" src="./script.js">
