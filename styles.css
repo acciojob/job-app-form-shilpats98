@@ -1,12 +1,12 @@
 
 /* Your CSS Code here. */
-.text{
-    margin-bottom: 5px;
-    margin-top: 5px;
+.item{
+    margin-bottom: 10px;
+    margin-top: 10px;
     border: 1px solid #ddd;
     box-shadow: 1px 1px #ddd;
 }
 .title{
-    margin-top: 5px;
-    margin-top: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
